@@ -12,7 +12,7 @@ We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload an
 Required by g2o. Download and install instructions can be found at: http://eigen.tuxfamily.org. Required at least 3.1.0. Tested with Eigen 3.3.7.
 
 ## Ceres-solver
-
+Follow [Ceres Installation](http://ceres-solver.org/installation.html), use **version 1.14.0** and remember to **sudo make install**.
 
 ## TBB
 Intel Threading Building Blocks(TBB) is used to accelerate the Tracking thread. We use parallel computation for acceleration in parts such as feature point extraction.
