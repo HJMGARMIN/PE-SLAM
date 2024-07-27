@@ -28,3 +28,15 @@ or
 ```
 sudo apt-get install libtbb-dev
 ```
+# 2. Build PE-SLAM library and examples
+Clone the repository:
+```
+git clone https://github.com/HJMGARMIN/PE-SLAM.git
+```
+
+We provide a script `build.sh` to build the *Thirdparty* libraries and *ORB-SLAM3*. Please make sure you have installed all required dependencies (see section 1). Execute:
+```
+cd PE-SLAM
+chmod +x build.sh
+./build.sh
+```
